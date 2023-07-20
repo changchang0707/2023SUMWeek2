@@ -1,0 +1,324 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+/* ************************************ */
+/*
+* {
+	outline: 1px solid red;
+  }
+  */
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", serif;
+  line-height: 1.5;
+  font-weight: 400px;
+  /*letter-spacing: 0.06em;*/
+}
+.nav li a:hover{
+  color: #00ffa3;
+}
+.contactMe:hover{
+  background: #00ffa3;
+}
+.seeMore:hover{
+  background: #00ffa3;
+}
+
+.bgGray {
+  background: #d9d9d9;
+}
+.bgBlack {
+  background: #000;
+}
+.bgLinear {
+  background-image: linear-gradient(to top, #050014, #01021e);
+}
+/*
+.bgIcon:hover {
+  box-shadow: -5px -5px 40px rgba(144, 148, 255, 1);
+}
+*/
+.bgIcon:hover{  
+  filter: drop-shadow(-5px -5px 40px rgba(144, 148, 255, 1));
+}
+
+
+.fcGray {
+  color: #d1d1d1;
+}
+.fcWhite {
+  color: #ffffff;
+}
+.fcGreen {
+  color: #00ffa3;
+}
+.fcBlack {
+  color: #000000;
+}
+.fcBlackLight {
+  color: #15161d;
+}
+.bdGray {
+  border: 1px solid #e3e3e3;
+}
+
+.font16 {
+  font-size: 16px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font24 {
+  font-size: 24px;
+}
+.font64 {
+  font-size: 64px;
+}
+.font128 {
+  font-size: 128px;
+}
+.box24 {
+  width: 24px;
+  height: 24px;
+}
+.box162 {
+  width: 162px;
+  height: 162px;
+}
+.box100 {
+  width: 100px;
+  height: 100px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+.mr4 {
+  margin-right: 4px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mr24 {
+  margin-right: 24px;
+}
+.mr60 {
+  margin-right: 60px;
+}
+.mb4 {
+  margin-bottom: 4px;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.mb28 {
+  margin-bottom: 28px;
+}
+.mb32 {
+  margin-bottom: 32px;
+}
+.mb36 {
+  margin-bottom: 36px;
+}
+.pd160 {
+  padding: 160px;
+}
+.pd16 {
+  padding: 16px;
+}
+.pd96 {
+  padding: 96px;
+}
+.pt16 {
+  padding-top: 16px;
+}
+.pt24 {
+  padding-top: 40px;
+}
+.pt40 {
+  padding-top: 40px;
+}
+.pt160 {
+  padding-top: 160px;
+}
+.pb16 {
+  padding-bottom: 16x;
+}
+.pb24 {
+  padding-bottom: 24px;
+}
+.pb160 {
+  padding-bottom: 160px;
+}
+.ptd40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.ptd160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.ptd72 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.w306 {
+  width: 306px;
+}
+.w196 {
+  width: 196px;
+}
+.w526 {
+  width: 526px;
+}
+.w746 {
+  width: 746px;
+}
+.w636 {
+  width: 636px;
+}
+.w526 {
+  width: 526px;
+}
+.w541 {
+  width: 541px;
+}
+.w657 {
+  width: 657px;
+}
+.w856 {
+  width: 856px;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.dsBlock {
+  display: block;
+}
+.dsFlex {
+  display: flex;
+}
+.dsFlexSB {
+  display: flex;
+  justify-content: space-between;
+}
+.dsFlexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dsFlexCenter {
+  display: flex;
+  align-items: center;
+}
+.dsFlexRight {
+  display: flex;
+  justify-content: right;
+}
+
+.dsFlexColumnSB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txtHyper {
+  text-decoration: none;
+}
+.txtRight {
+  text-align: right;
+}
+.contactMe {
+  width: 185px;
+  height: 48px;
+  /*padding: 12px 24px 12px 24px;*/
+  border-radius: 32px;
+  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeMore {
+  width: 185px;
+  height: 48px;
+  /*padding: 12px 24px 12px 24px;*/
+  border-radius: 32px;
+  color: #ffffff;
+  background: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introBG {
+  height: 920px;
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-size: cover;
+}
+
+.footer {
+  text-align: center;
+}
